@@ -5,3 +5,5 @@ This code is conviniently wrapped and formatted as a header file, so it can be i
 
 CAUTION:
 The effective size of these stacks is one element less than the actuall number of elements allocated for them. This is due to the pointer arithmetic used to push elements to the stack. As a result, the last element in a stack will never be overwritten by the stack without causing a segfault. Knowing this, you can be reasonably sure any data intentionally stored in the last element of the arrray used to initailize a stack will not be accessed by the stack itself. This unused element could, therefor, be used as a seperate varible of whatever type the stack is holding; however, in most cases, it is better to ignore it's existence entirely.
+
+Current example code needs improvements to readability, and more realistic implementations.
