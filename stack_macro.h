@@ -1,5 +1,5 @@
-#ifndef FILE_STACK_H
-#define FILE_STACK_H
+#ifndef MACRO_STACK_H
+#define MACRO_STACK_H
 
 /**
  * Pushes value B to stack A. Returns value pushed.
