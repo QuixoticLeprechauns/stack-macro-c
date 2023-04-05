@@ -31,4 +31,9 @@
 */
 #define new_stack(E, S) { (E), (E), (S), }
 
+/**
+ * Calculates a pointer to the last usable element in stack A.
+*/
+#define stack_end(A) ((A.elements) + ((A.size) - 1))
+
 #endif
