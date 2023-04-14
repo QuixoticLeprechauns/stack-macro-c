@@ -7,4 +7,3 @@
 
 # Improvements Needed:
  - Current example code needs improvements to readability, and should provide more useful implementations.
- - A function for calculating the upper bounds of a stack's accessable elements would make implementations less confusing.
