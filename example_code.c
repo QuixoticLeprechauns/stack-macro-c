@@ -7,7 +7,7 @@ define_stack(int);
 
 int main(void)
 {
-    int n = 10, *array = (int*) calloc(n, sizeof(int));
+    int n = 100000, *array = (int*) calloc(n, sizeof(int));
     stack_int stack = new_stack(array);
     while(stack_size(stack) < n)
     {
@@ -19,6 +19,6 @@ int main(void)
     {
         printf("stack_pop: %d\n", stack_pop(stack));
     }
-
+    getchar();
     return 0;
 }
